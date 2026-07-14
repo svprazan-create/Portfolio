@@ -11,7 +11,7 @@ export const initialPortfolioData: PortfolioData = {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
-    avatarUrl: "/src/assets/images/portfolio_avatar_1783604170906.jpg"
+    avatarUrl: "/src/assets/images/prazan.jpg"
   },
   skills: [
     // Frontend
