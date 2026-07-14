@@ -50,7 +50,7 @@ export default function App() {
           parsed.profile.email = initialPortfolioData.profile.email;
           migrated = true;
         }
-        if (parsed.profile && (parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783344470615.jpg" || parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783598720698.jpg" || parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783604170906.jpg" || !parsed.profile.avatarUrl)) {
+        if (parsed.profile && (parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783344470615.jpg" || parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783598720698.jpg" || parsed.profile.avatarUrl === "/src/assets/images/portfolio_avatar_1783604170906.jpg" || parsed.profile.avatarUrl === "/src/assets/images/prazan.jpg" || !parsed.profile.avatarUrl)) {
           parsed.profile.avatarUrl = initialPortfolioData.profile.avatarUrl;
           migrated = true;
         }
